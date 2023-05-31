@@ -1,0 +1,34 @@
+import * as React from 'react';
+import { StyleSheet,Image } from 'react-native';
+export default function ImageViewer({ placeholderImageSource})
+import Constants from 'expo-constants';
+Const placeholderImage = require('.asserts/Images/backgroundColor/)
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.paragraph}>
+      <ImageViewer placeholderImageSource={PlaceholderImage} />
+      </Text>
+      <Card>
+        <AssetExample />
+      </Card>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#255292e',
+    padding: 8,
+  },
+ imagecontainer ?:{
+ paddingTop: 58;
+ }...
+Image: {
+  Width:320,   
+  Height: 440,
+  borderRadius: 18,
+}
+ 
